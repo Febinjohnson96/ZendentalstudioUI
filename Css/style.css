@@ -1,0 +1,307 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+ul li{
+    list-style: none;
+}
+.btncustom{
+    background-color: #4BF95C;
+    border: none;
+}
+.btncustom:hover{
+    background-color: #ffffff;
+    color: #4BF95C;
+}
+.navbarcustom{
+    background-color: #ffffff;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*hero section*/
+.leftside, .rightside{
+    height: 100vh;
+    width: 100%;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+.leftside{
+    background-color:#ffffff;
+}
+.rightside{
+    background-color:#ffffff;
+}
+.rightside img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.herotext h3{
+    font-weight: 700;
+}
+/*about section*/
+.leftsideabt, .rightsideabt{
+    height: 100vh;
+    width: 100%;
+}
+.about{
+    height: 100%;
+    width: 100%;
+}
+.leftsideabt{
+    background-color:#ffffff;
+}
+.leftsideabt img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.rightsideabt{
+    background-color: #ffffff;
+}
+.rightsideabt p{
+    position: absolute;
+ margin-top: 300px;
+ padding: 10;
+}
+
+/*value section*/
+.values{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    background-color:#ffffff;
+}
+.sechead h3{
+    position: absolute;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.valcard{
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 80;
+}
+.iconcenter{
+    text-align: center;
+}
+.card{
+    border-radius: 10px;
+}
+/* Services Section */
+.service{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.leftsideser, .rightsideser{
+    height: 100vh;
+    width: 100%;
+}
+.leftsideser{
+    background-color:#ffffff;
+}
+.rightsideser{
+    background-color: #ffffff;
+}
+.leftsideser h3{
+    font-weight: 700;
+    margin-top: 40px;
+    position: absolute;
+}
+.leftsideser p {
+      margin-top: 100px;
+    position: absolute;
+}
+.leftsideser h5 {
+    margin-left: 50px;
+    font-weight: 700;
+    margin-top: 300px;
+   position: absolute;
+}
+.rightsideser img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.listcont{
+    position: absolute;
+    margin-top: 350px;
+}
+/*Patient section*/
+.patient{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-color: #ffffff;
+}
+.patient h3{
+    font-weight: 700;
+    position: absolute;
+    margin-top: 150px;
+}
+.patient p{
+    position: absolute;
+    margin-top: 300px;
+}
+.patient button{
+    position: absolute;
+    margin-top: 450;
+}
+/*testimonials section*/
+.testimonials{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+.testimonials h3{
+    font-weight: 700;
+    position: absolute;
+    margin-top: 150px;
+}
+
+/*testimonial container*/
+.carousalcontainer{
+    position: absolute;
+    margin-top:700px ;
+}
+.maincontainer{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+  .carousalcontainer{
+      height: 50%;
+      width: 50%;
+  }
+.maincontainer img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: 20vw;
+}
+.maincontainer h5 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 21vw;
+}
+.maincontainer p {
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 2vw;
+}
+.carousel-inner{
+    width: 100%;
+}
+/*contact Section*/
+.contact{
+    height: 100%;
+    width: 100%;
+}
+.leftsidecon, .rightsidecon{
+    height: 100vh;
+    width: 100%;
+}
+.rightsidecon{
+    background-color: #ffffff;
+}
+.leftsidecon{
+    background-color: #ffffff;
+}
+.rightsidecon h3{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.rightsidecon p{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.rightsidecon button{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 52px;
+}
+/*forms*/
+form{
+    position: absolute;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+/*footer*/
+.footer{
+    height: 50%;
+    background-color: #E5E5E5;
+    position: relative;
+}
+.menuone{
+    position: absolute;
+    margin-top: 20px;
+
+}
+.menutwo{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 20px;
+}
+.colorstext{
+    color: #4BF95C;
+}
+/*Media Queries*/
+@media only screen and (max-width: 600px) {
+    .leftsideabt{
+        margin-top: 700px;
+    }
+    .values{
+        margin-top: 200vh;
+        
+    }
+    .valcard{
+        margin-left: -15px;
+    }
+    .service{
+        margin-top: 100vh;
+    }
+    .patient{
+        margin-top: 100vh;
+    }
+    .patient p{
+        margin-top: 70vh;
+    }
+    .patient button{
+        margin-top: 110vh;
+    }
+    .maincontainer{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    .footer{
+        margin-top: 100vh;
+    }
+    .menutwo{
+        margin-top: 5vh;
+    }
+  }
